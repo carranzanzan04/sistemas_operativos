@@ -10,7 +10,7 @@ int **vec=NULL;
 /*esta funcion recibe como parametro un  char **
  (en este caso el argv o vector de argumentos matriz de punteros a matrizces 
  de objetos de caracteres) donde recibiremos un archivo con los datos en un
- formato de terminado y listos para prcesar*/
+ formato de terminado y  listos para prcesar*/
 void cargar_datos( char* v[], int a){ 
   flujo=fopen(v[a],"r");
   if(flujo==NULL){
